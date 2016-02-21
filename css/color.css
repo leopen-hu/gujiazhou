@@ -1,0 +1,99 @@
+﻿/*
+Creator:Leopen;
+CreateTime:2016-02-09 23:16:00;
+Editor:Leopen;
+EditTime:2016-02-09 23:16:00;
+*/
+
+/*common CSS*/
+body{
+	color:#333;
+	background-color:#f2f2f2;
+}
+
+a{
+	color:#333;
+}
+
+#header{
+	
+}
+
+#header #logo{
+	background:url("../images/logo.png") no-repeat top left;
+}
+
+#header nav{
+	
+}
+
+#header nav a{
+	color:#333;
+}
+
+#header nav a:hover,#header nav a.active{
+	background-color:#fff;
+}
+
+#footer{
+	background:#fff;
+}
+
+/* Index Page CSS */
+#wrap-content>section{
+	background-color:#fff;
+}
+#wrap-content>section:after{
+	background-color:#eee;
+}
+#wrap-content>section:last-child:after{
+	background-color:#fff;
+}
+#wrap-content>section h2:after{
+	background-color:#333;
+}
+ul.list-special li{
+	border-color:#eee;
+}
+ul.list-special a .wrap-description{
+	color:#333;
+	background:url(../images/cover_gray.png) repeat left top;
+}
+ul.list-special a .wrap-description:hover{
+	color:#eee;
+}
+div.view-more a{
+	color:#fff;
+	background-color:lightgreen;
+}
+.i-telephone{
+	background:url(../images/telephone_small.png) no-repeat left top;
+}
+.i-weixin{
+	background:url(../images/weixin.png) no-repeat left top;
+}
+.i-blog{
+	background:url(../images/blog.png) no-repeat left top;
+}
+.i-weibo{
+	background:url(../images/weibo.png) no-repeat left top;
+}
+#wrap-left{
+	background-color:lightgreen;
+}
+#wrap-right>section{
+	background-color:#fff;
+}
+#wrap-right>section:after{
+	background-color:#eee;
+}
+#wrap-right>section:last-child:after{
+	background-color:#fff;
+}
+#wrap-right>section h2:after{
+	background-color:#333;
+}
+#message form input[type="submit"]{
+	color:#fff;
+	background-color:lightgreen;
+}

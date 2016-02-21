@@ -1,0 +1,396 @@
+﻿/*
+Creator:Leopen;
+CreateTime:2016-02-09 23:16:00;
+Editor:Leopen;
+EditTime:2016-02-09 23:16:00;
+*/
+
+/*common CSS*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width:1008px;
+	margin:auto;
+}
+#header{
+}
+#header #logo{
+	float:left;
+	margin:40px 0px 10px 10px;
+}
+#header #logo a{
+	display:block;
+	padding-left:50px;
+	width:100px;
+	height:50px;
+	line-height:50px;
+}
+#header nav{
+	float:right;
+	margin:40px 0px 10px 10px;
+}
+#header nav ul{
+	float:right;
+}
+#header nav li{
+	float:left;
+}
+#header nav a{
+	display:block;	
+	padding:0px 15px;
+	margin-right:1px;
+	height:50px;
+	line-height:50px;
+}
+#slider-show{
+	position:relative;
+	width:1008px;
+	height:350px;
+	clear:both;
+}
+#slider-show li{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:350px;
+}
+#slider-show img{
+	width:1008px;
+	height:350px;
+}
+#wrap-content{
+	margin-top:40px;
+}
+#footer{
+	padding:20px;
+	margin:40px 0px 15px 0px;
+	text-align:center;
+}
+#footer #link-else{
+	margin-bottom:5px;
+}
+#footer #link-else:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#footer #link-else ul,#footer #link-else li{
+	display:inline;
+}
+#footer #link-else a{
+	display:block;
+	display:inline;
+	padding:0px 10px;
+}
+
+/* Index Page CSS */
+
+/* wrap-content CSS */
+#wrap-content>section{
+	padding-top:40px;
+}
+#wrap-content>section:after{
+	content:"";
+	display:block;
+	margin:40px 30px 0px;
+	height:1px;
+}
+#wrap-content>section:last-child:after{
+	content:"";
+	display:block;
+	margin:40px 0px 0px 0px;
+	height:1px;
+}
+#wrap-content>section h2{
+	text-align:center;
+}
+#wrap-content>section h2:after{
+	content:"";
+	display:block;
+	margin:15px auto 30px;
+	height:2px;
+	width:500px;
+}
+
+/* section special CSS */
+ul.list-special{
+	margin:10px 0px;
+}
+ul.list-special a{
+	position:relative;
+	display:block;
+	width:274px;
+	height:325px;
+	padding:10px;
+	overflow:hidden;
+}
+ul.list-special a img{
+	width:274px;
+	height:325px;
+}
+ul.list-special a .wrap-description{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	margin:10px;
+	padding:10px;
+	width:254px;
+	height:105px;
+}
+ul.list-special:after{
+		content:"";
+		display:block;
+		clear:both;
+}
+ul.list-special li{
+	margin:15px 0px 15px 30px;
+	float:left;
+	border-style:solid;
+	border-width:1px;	
+}
+div.view-more{
+	text-align:center;
+}
+div.view-more a{
+	display:inline-block;
+	line-height:40px;
+	text-align:center;
+	margin:10px 0px;
+	width:200px;
+	height:40px;
+	border-radius:3px;
+	box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
+}
+/* after special list clicked,show the div below */
+div#special-show{
+	position:fixed;
+	top:20%;
+	left:25%;
+	margin:auto;
+	background:url("../images/zi.png") repeat top left;
+	padding:20px 20px 53px;
+	border-radius:20px;
+	z-index:20000;
+}
+div#special-show .main{
+	background-color:#fff;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+div#special-show .main img{
+	width:100%;
+}
+div#special-show .else{
+	position:relative;
+	margin-top:10px;
+}
+div#special-show .else:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+div#special-show .else p{
+	margin-right:100px;
+	font-weight:bold;
+	color:#fff;
+	padding:0px 0px 4px;
+}
+div#special-show .else a{
+	position:absolute;
+	top:0px;
+	right:0px;
+	display:block;
+	height:22px;
+	width:75px;
+	background:url(../images/sprite.png) -1px -1px no-repeat;
+	border-radius:10px;
+	text-decoration:none;
+	text-indent:-9999px;
+}
+div#cover-screen{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10000;
+	background:url(../images/cover_gray.png) top left repeat;
+}
+/* section about CSS */
+ul.list-about{
+	
+}
+ul.list-about:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+ul.list-about li{
+	display:block;
+	float:left;
+	margin:0px 0px 20px 30px;
+	width:459px;
+	height:155px;
+	overflow:hidden;
+}
+
+ul.list-about li img{
+	float:left;
+	margin-right:10px;
+	padding:10px 0px;
+	width:125px;
+	height:125px;
+	border-radius:100px;
+}
+ul.list-about li h3{
+	margin:20px 0px;
+}
+/* section contact CSS */
+#contact #telephone{
+	text-align:center;
+}
+#contact #telephone i{
+	width:32px;
+	height:32px;
+}
+#contact #list-netcontact{
+	text-align:center;
+	margin-bottom:20px;
+}
+#contact #list-netcontact li{
+	display:inline;
+}
+#contact #list-netcontact a img{
+	width:30px;
+	height:30px;
+}
+#contact #telephone{
+	margin:20px 0px 20px;
+}
+#contact #telephone span{
+	display:block;
+	height:30px;
+	line-height:30px;
+}
+.i-contact{
+	display:inline-block;
+	width:30px;
+	height:30px;
+}
+
+/* Special Page CSS */
+#special #list-variety:before{
+	content:"";
+	display:block;
+	clear:both;
+	border-bottom:1px solid #eee;
+}
+#special #list-variety{
+	padding:0px 30px;
+}
+#special #list-variety:after{
+	content:"";
+	display:block;
+	clear:both;
+	border-bottom:1px solid #eee;
+}
+#special #list-variety li{
+	float:left;
+	margin:10px 0px;
+}
+#special #list-variety a{
+	margin-right:30px;
+}
+
+/* About Page CSS */
+#wrap-content{
+	position:relative;
+}
+#wrap-left{
+	position:relative;
+/* 	position:fixed;
+	top:0px; */
+	float:left;
+	width:250px;
+}
+#wrap-left ul a{
+	display:block;
+	line-height:50px;
+	height:50px;
+	text-align:center;
+	border-bottom:1px solid #eee;
+}
+#wrap-right{
+	margin-left:250px;
+}
+#wrap-right>section{
+	padding-top:40px;
+}
+#wrap-right>section:after{
+	content:"";
+	display:block;
+	margin:40px 30px 0px;
+	height:1px;
+}
+#wrap-right>section:last-child:after{
+	content:"";
+	display:block;
+	margin:40px 0px 0px 0px;
+	height:1px;
+}
+#wrap-right>section h2{
+	text-align:center;
+}
+#wrap-right>section h2:after{
+	content:"";
+	display:block;
+	margin:15px auto 30px;
+	height:2px;
+	width:500px;
+}
+#wrap-right>section>p,#wrap-right>section>ul{
+	width:500px;
+	margin:auto;
+}
+
+#contact #list-contact{
+	width:500px;
+	text-align:center;
+	margin:auto;
+}
+#contact #list-contact #list-netcontact{
+	margin:20px auto;
+}
+#wrap-map{
+	width:510px;
+	height:410px;
+	overflow:hidden;
+	margin:auto;
+	border:1px solid #eee;
+}
+#wrap-map img{
+	width:500px;
+	height:400px;
+	margin:5px;
+}
+#message form{
+	width:500px;
+	margin:auto;
+}
+input,textarea{
+	display:block;
+	margin-top:10px;
+	padding:0px 5px;
+	border:1px solid #aaa;
+	width:250px;
+	height:25px;
+	border-radius:3px;
+}
+#message form textarea{
+	width:450px;
+	height:200px;
+}
+#message form input[type="submit"]{
+	height:30px;
+}
+

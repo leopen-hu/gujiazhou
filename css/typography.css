@@ -1,0 +1,51 @@
+﻿/*
+Creator:Leopen;
+CreateTime:2016-02-09 23:16:00;
+Editor:Leopen;
+EditTime:2016-02-09 23:16:00;
+*/
+
+/*common CSS*/
+body{
+	font:normal 0.875em "微软雅黑",sans-serif;
+}
+ul,li{
+	list-style:none;
+}
+#header #logo a{
+	font-size:1.5em;
+	text-decoration:none;
+}
+#header nav a{
+	font-size:1.2em;
+	text-decoration:none;
+}
+
+ul.list-special a{
+	text-decoration:none;
+}
+div.view-more a{
+	text-decoration:none;
+	font-size:1.2em;
+}
+ul.list-about li a{
+	text-decoration:none;
+}
+#contact #telephone span{
+	font-size:2em;
+	font-weight:bold;
+}
+#special #list-variety a{
+	text-decoration:none;
+	font-size:1.2em;
+}
+#special #list-variety a:hover{
+	color:lightgreen;
+}
+#wrap-left ul a{
+	text-decoration:none;
+	font-size:1.2em
+}
+#message form input[type="submit"]{
+	font-weight:bold;
+}
